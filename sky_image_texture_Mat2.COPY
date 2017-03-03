@@ -1,0 +1,25 @@
+Begin Object Class=Material Name="sky_image_texture_Mat2"
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'/Game/sky_image_texture.sky_image_texture'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-250
+      MaterialExpressionGuid=24103FEC46EB35C0A6C83FB74F0820F5
+      Material=Material'sky_image_texture_Mat2'
+   End Object
+   Roughness=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_0',OutputIndex=1,Mask=1,MaskR=1)
+   Normal=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EmissiveColor=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_0',OutputIndex=2,Mask=1,MaskG=1)
+   Expressions(0)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_0'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=666D0FA14961C561E90941BF0451592E
+   ReferencedTextureGuids(0)=2254912945D1FBD4D471CEB565A1C90B
+   TextureStreamingData(0)=(SamplingScale=0.015625,UVChannelIndex=0,TextureName="sky_image_texture",TextureReference=/Game/sky_image_texture.sky_image_texture)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=F7BA36CF4920D9A70FABB19E83FED1CD
+End Object
